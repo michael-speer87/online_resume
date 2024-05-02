@@ -1,0 +1,323 @@
+ul.no-bullets {
+    list-style-type: none;
+}
+
+.bg-dark {
+    background-color: #040404!important
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    background-color: #1f6853;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: #134;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+header.mainHead  {
+    padding: 200px 0 150px;
+    color: white;
+    background: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 399px) {
+    header.mainHead {
+        background-position: -70px 0;
+    }
+}
+
+header.mainHead div {
+    background-color: rgb(31,104,83)transparent;
+    background-color: rgba(31,104,83,0.6);
+    text-align: center;
+    padding: 10px 0 10px;
+    margin-left: 25%;
+    margin-right: 25%
+}
+
+@media only screen and (max-width: 500px) {
+    header.mainHead div {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+.frame {
+    padding: 50px;
+}
+
+.picture img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 40%;
+
+    border: 1em solid #1f6853;
+}
+
+@media only screen and (max-width: 796px) {
+    .picutre img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .picture img {
+        width: 100%;
+    }
+}
+
+.details div {
+    padding: 0 30%;
+}
+
+@media only screen and (max-width: 796px) {
+    .details div {
+        padding: 0;
+    }
+}
+
+.mainSection h1,
+.mainSection h3 {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+
+#profile p {
+    padding: 0 40px;
+    text-align: justify;   
+}
+
+@media only screen and (max-width: 399px){
+    #profile p {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+#experience {
+    background-color: #EAECEF;
+}
+
+.checked {
+    color: #1f6853;
+}
+
+.skillScore {
+    float: right;
+}
+
+#abilities ul > li
+.skillScore .fa,
+#abilities ul > li
+.skillName {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#abilities ul > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#abilities ul > li:hover .star1 {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#abilities ul > li:hover .star2 {
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+#abilities ul > li:hover .star3 {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+#abilities ul > li:hover .star4 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#abilities ul > li:hover .star5 {
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+    -o-transition: all 1.2s;
+    transition: all 1.2s;
+}
+
+#abilities ul > li:hover 
+.skillScore .fa,
+#abilities ul > li:hover
+.skillName {
+    margin-left: 2px;
+    font-size: 1.12em;
+}
+
+@media only screen and (max-width: 600px){
+    #abilities ul > li:hover 
+.skillScore .fa,
+#abilities ul > li:hover
+.skillName {
+    margin-left: 1px;
+    font-size: 1.1em;
+}
+}
+
+#abilities ul > li:hover
+.skillScore .checked {
+    color: gold;
+}
+
+#abilities ul > li:hover {
+    background-color: #1f6853;
+}
+
+#projects {
+    background-color: #EAECEF;
+}
+
+#projects .row > div { margin-bottom: 30px; }
+#projects figure { position: relative; overflow: hidden;}
+#projects figure h3 { color: white; font-weight: 600; margin-bottom: 5px;}
+#projects figure img { width: 110%; }
+#projects figure figcaption {
+    padding: 20px 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 960px) and (min-width: 600px) {
+    #projects figure figcaption {
+        padding: 0px 30px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #projects figure figcaption {
+        padding: 5px 30px;
+    }
+}
+
+figure.effect {
+    background: #1f6853;
+    color: white;
+}
+
+figure.effect img {
+    width: -webkit-calc(100% + 20px);
+    width: calc(100% + 20px);
+    -webkit-transition: opacity -.35s, -webkit-transform -.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0 , 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure.effect:hover img {
+    opacity: 0.2;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+
+}
+
+figure.effect figcaption {
+    text-align: left;
+}
+
+figure.effect h3 {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover h3 {
+    opacity: 1;
+}
+
+figure.effect h3::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    content: '';
+    -webkit-transition: -webkit-transform -.35s;
+    transition: transform -.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+figure.effect:hover h3::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect p {
+    padding-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+figure.effect:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+#contact {
+    background-color: #222629;
+    color: white;
+    padding: 0 0 50px;
+}
+
+.contactForm {
+    font-size: 20px;
+    padding: 60px 0 50px 15%;
+    color: white;
+}
+
+.contactForm .text {
+    padding: 0 0 0 1em;
+}
+
+footer {
+    background-color: #222629;
+    padding: 0 50px 50px 50px;
+    text-align: center;
+    color: white;
+}
+
