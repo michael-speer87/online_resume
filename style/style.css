@@ -21,10 +21,9 @@ ul.no-bullets {
 }
 
 header.mainHead  {
-    background-image: url("../images/header.jpg");
     padding: 200px 0 150px;
     color: white;
-    background: no-repeat;
+    background: url("../images/header.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -94,6 +93,10 @@ header.mainHead div {
     
 }
 
+.mainSection img {
+    width: 400px;
+    height: 300px;
+}
 
 #profile p {
     padding: 0 40px;
