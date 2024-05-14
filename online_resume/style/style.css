@@ -95,7 +95,7 @@ header.mainHead div {
 
 .mainSection img {
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 
 #profile p {
@@ -300,19 +300,6 @@ figure.effect:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
-}
-
-figure.effect a:link, figure.effect a:visited {
-    background-color: white;
-    color: black;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-figure.effect a:hover, figure.effect a:active {
-    background-color: #1f6853;
 }
 
 #contact {
